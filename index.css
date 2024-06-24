@@ -1,5 +1,5 @@
 body {
-    background-color: #E5E4E2;
+    background-color: #333;
 }
 
 
@@ -67,25 +67,21 @@ body {
 
 .socials {
     display: flex;
-    align-items: center;
-    border: solid 1px rgb(76, 255, 40);
+    height: 100%;
 }
 
 .social-content {
     display: flex;
-    height: 50%;
-    align-items: center;
-    align-content: flex-start;
-    justify-content: space-around;
     flex-direction: column;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
     list-style-type: none;
-    border: solid 1px yellow;
 }
 
 .social-content li a {
-    color: white;
-    padding: 30px;
     text-decoration: none;
-    border: 1px solid red;
+    color: white;
+    background-color: rgb(133, 7, 7);
+    padding: 30px;
 }
-
